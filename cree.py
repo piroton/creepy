@@ -137,7 +137,7 @@ else:
                 self_timetable = get_timetable(ct, combi.split() + COMMON_LESSONS[YEAR - int(ct[:2])])
                 # print student info
                 header = "│ %s (%s) of %s │" % (name, gender, ct)
-                print "┌%s┐" % ("─"*(len(header)-6)) # note that verticle lines, unlike pipes, have a length of 3
+                print "┌%s┐" % ("─"*(len(header)-6)) # note that vertical lines, unlike pipes, have a length of 3
                 print header
                 print "└%s┘" % ("─"*(len(header)-6))
                 print_legend(combi.split())
